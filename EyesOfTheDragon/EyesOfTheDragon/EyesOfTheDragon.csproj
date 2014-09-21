@@ -116,6 +116,10 @@
     <Content Include="GameThumbnail.png" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\XRpgLibrary\XRpgLibrary.csproj">
+      <Project>{6c5a51ff-266e-4e7f-9467-78d1bcb11ae6}</Project>
+      <Name>XRpgLibrary</Name>
+    </ProjectReference>
     <ProjectReference Include="..\EyesOfTheDragonContent\EyesOfTheDragonContent.contentproj">
       <Name>EyesOfTheDragonContent</Name>
       <XnaReferenceType>Content</XnaReferenceType>
